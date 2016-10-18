@@ -1,4 +1,4 @@
-# TheMovieDB 1.1 #
+# TheMovieDB #
 
 Ricardo Sarto Costa
 
