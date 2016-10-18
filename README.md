@@ -16,6 +16,7 @@ It uses The Movie DB API for the RESTful implementation. You can find more detai
 https://www.themoviedb.org/documentation/api
 
 ## Third-party ##
-Overcoat 4.0.0
-Mantle 2.0.7
-Realm 2.0.7
+- Overcoat 4.0.0
+- Mantle 2.0.7
+- Realm 2.0.7
+
