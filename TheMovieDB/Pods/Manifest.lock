@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - MBProgressHUD (0.9.2)
+  - Overcoat (4.0.0-beta.2):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - AFNetworking/Serialization (~> 3.0)
+    - Mantle (~> 2.0)
+  - Realm (2.0.1):
+    - Realm/Headers (= 2.0.1)
+  - Realm/Headers (2.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - Mantle (~> 2.0.7)
+  - MBProgressHUD (~> 0.9.2)
+  - Overcoat (~> 4.0.0-beta.1)
+  - Realm (~> 2.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Overcoat: 2ddaa6d66edebc375f3e24a37974631d5aff7ebe
+  Realm: 0557ee0e4ab4f0936c90e370056d1ed6265f93d6
+
+PODFILE CHECKSUM: ce14eb84e89e91522114d2f9568980f5d85cd7b8
+
+COCOAPODS: 1.0.1
