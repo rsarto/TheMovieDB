@@ -22,49 +22,19 @@
 
 - (void)setUp {
     [super setUp];
-
-    NSCalendar *calendar             = [[NSCalendar alloc]  initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
-
+    NSCalendar *calendar = [[NSCalendar alloc]  initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
+    
     // first 2016-10-18 9:10:11
-    [dateComponents setYear:2016];
-    [dateComponents setMonth:10];
-    [dateComponents setDay:18];
-    [dateComponents setHour:9];
-    [dateComponents setMinute:10];
-    [dateComponents setSecond:11];
+    self.first = [calendar dateWithEra:1 year:2016 month:10 day:18 hour:9 minute:10 second:11 nanosecond:0];
     
-    self.first = [calendar dateFromComponents:dateComponents];
-
     // second 2016-10-18 10:11:12
-    [dateComponents setYear:2016];
-    [dateComponents setMonth:10];
-    [dateComponents setDay:18];
-    [dateComponents setHour:10];
-    [dateComponents setMinute:11];
-    [dateComponents setSecond:12];
-    
-    self.second = [calendar dateFromComponents:dateComponents];
+    self.second = [calendar dateWithEra:1 year:2016 month:10 day:18 hour:10 minute:11 second:12 nanosecond:0];
     
     // yesterday 2016-10-17 12:13:14
-    [dateComponents setYear:2016];
-    [dateComponents setMonth:10];
-    [dateComponents setDay:17];
-    [dateComponents setHour:12];
-    [dateComponents setMinute:13];
-    [dateComponents setSecond:14];
+    self.yesterday = [calendar dateWithEra:1 year:2016 month:10 day:17 hour:12 minute:13 second:14 nanosecond:0];
     
-    self.yesterday = [calendar dateFromComponents:dateComponents];
-
     // tomorrow 2016-10-19 04:05:06
-    [dateComponents setYear:2016];
-    [dateComponents setMonth:10];
-    [dateComponents setDay:19];
-    [dateComponents setHour:4];
-    [dateComponents setMinute:5];
-    [dateComponents setSecond:6];
-    
-    self.tomorrow = [calendar dateFromComponents:dateComponents];
+    self.tomorrow = [calendar dateWithEra:1 year:2016 month:10 day:19 hour:4 minute:5 second:6 nanosecond:0];
 }
 
 - (void)tearDown {
